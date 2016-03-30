@@ -1,0 +1,16 @@
+{
+  "pihole": {
+    "image": "diginc/pi-hole",
+    "environment": [
+      "piholeIP=${DOCKER_HOST_IP}"
+    ],
+    "ports": [
+      "53:53/tcp",
+      "53:53/udp",
+      "8100:80"
+    ],
+    "cap_add": [
+      "NET_ADMIN"
+    ]
+  }
+}

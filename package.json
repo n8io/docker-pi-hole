@@ -6,6 +6,7 @@
   "scripts": {
     "build": "node build",
     "clean": "rm -rf node_modules/",
+    "postinstall": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

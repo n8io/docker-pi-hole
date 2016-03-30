@@ -1,4 +1,7 @@
 # docker-pi-hole
+A simple, yet configurable, pi-hole implementation leveraging a Docker container.
+
+![Docker Pi-Hole](https://dl.dropboxusercontent.com/u/452959/hosted/pihole.png)
 
 ## Requirements
 1. Docker w/docker-compose
